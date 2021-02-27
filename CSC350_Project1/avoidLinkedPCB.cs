@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CSC350_Project1
 {
-    public struct avoidLinkedPCB
+    public class avoidLinkedPCB
     {
         public int parent;
         public int first_child;
@@ -60,9 +60,8 @@ namespace CSC350_Project1
             if (pcb_arr[parent_index].first_child == 0)
             {
                 pcb_arr[parent_index].first_child = current_index;
-                Console.WriteLine("help");
             }
-            else 
+            else
             {
                 if (pcb_arr[pcb_arr[parent_index].first_child].younger_sibling == 0)
                 {
@@ -71,7 +70,7 @@ namespace CSC350_Project1
                 }
                 else
                 {
-                    create(current_index);
+                    
                 };
             };
         }

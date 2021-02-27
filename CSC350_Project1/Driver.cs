@@ -11,7 +11,7 @@ namespace CSC350_Project1
         {
             Console.WriteLine("Begin");
 
-            /*
+            
             PCB_Controller PCB_List = new PCB_Controller();
             PCB_List.init();
             PCB_List.create(0);
@@ -26,14 +26,14 @@ namespace CSC350_Project1
             Console.WriteLine("destroy finshed");
 
             PCB_List.print_all(0);
-            */
+            
 
             AvoidLinkedPCB_Controller PCB_List2 = new AvoidLinkedPCB_Controller();
             PCB_List2.init();
             PCB_List2.create(0);
-            PCB_List2.create(0);
-            PCB_List2.create(0);
-            PCB_List2.create(0);
+            //PCB_List2.create(0);
+            //PCB_List2.create(0);
+            //PCB_List2.create(0);
 
         }
     }
