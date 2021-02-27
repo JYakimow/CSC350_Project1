@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CSC350_Project1
 {
-    public class avoidLinkedPCB
+    public struct avoidLinkedPCB
     {
         public int parent;
         public int first_child;
@@ -42,7 +42,7 @@ namespace CSC350_Project1
         }
         public void create(int parent_index)
         {
-            int temp = 0;
+            //int temp = 0;
 
             for (int i = 0; i < indexArr.Length; i++)
             {
